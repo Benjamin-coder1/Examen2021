@@ -23,7 +23,7 @@ clean:
 %.exe: %.cpp
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(LIB)
 
-simple_automate_cellulaire.exe : lodepng/lodepng.cpp simple_automate_cellulaire.cpp
+simple_automate_cellulaire.exe : lodepng_old/lodepng.cpp simple_automate_cellulaire.cpp
 	$(CXX) $(CXXFLAGS2) $^ -o $@ $(LIB)	
 
 help:

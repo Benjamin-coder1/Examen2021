@@ -2,7 +2,7 @@
 #include <cstdint>
 #include <vector>
 #include <chrono>
-#include "lodepng/lodepng.h"
+#include "lodepng_old/lodepng.h"
 
 int main(int nargs, char* argv[])
 {
